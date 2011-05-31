@@ -28,6 +28,7 @@ GEM
       activemodel (= 3.0.7)
       activesupport (= 3.0.7)
     activesupport (3.0.7)
+    ansi (1.2.5)
     arel (2.0.10)
     builder (2.1.2)
     diff-lcs (1.1.2)
@@ -77,6 +78,8 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
+    turn (0.8.2)
+      ansi (>= 1.2.2)
     tzinfo (0.3.27)
     webrat (0.7.1)
       nokogiri (>= 1.2.0)
@@ -87,9 +90,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  abstract (= 1.0.0)
   rails (= 3.0.7)
   rake (= 0.8.7)
   rspec (= 2.0.1)
   rspec-rails (= 2.0.1)
   sqlite3-ruby (= 1.2.5)
+  turn (= 0.8.2)
   webrat (= 0.7.1)

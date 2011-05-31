@@ -15,7 +15,12 @@ end
 group :test do
   gem 'rspec', '2.0.1'
   gem 'webrat', '0.7.1'
+  gem 'turn', '0.8.2'
+  gem 'abstract', '1.0.0'
 end
+
+#gem 'autotest-standalone', :require => 'autotest'
+#gem 'autotest-rails-pure'
 
 # Use unicorn as the web server
 # gem 'unicorn'
